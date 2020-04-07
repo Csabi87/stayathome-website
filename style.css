@@ -1,0 +1,123 @@
+header {
+  width: 1000px;
+  height: 100px;
+  background: #001F3F;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+container {
+  display: flex;
+  width: 1000px; 
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: flex-start;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  justify-content: flex-start;
+}
+
+.photo{
+  height: 600px;
+  background: url(first-website-header.png);
+  background-position: top;
+  background-size: 1000px;
+  background-repeat: no-repeat;
+}
+
+.intro {
+  font-size: 30px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 470px;
+  left: 50px;
+  color: #111;
+}
+
+.name {
+  font-size: 50px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold; 
+  position: absolute;
+  top: 500px;
+  left: 50px;
+  color: #111;
+}
+
+blockquote {
+  height: 600px;
+  margin: 0;  
+}
+
+blockquote p {
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+  Font-size: 40px;
+  font-weight: bold;
+  background: #001F3F;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  position: relative;
+  top: -40px;
+}
+
+blockquote p::before {
+  content: '\201C';
+  font-size: 110px;
+}
+
+.Bio, .Achievements, .Experience, .Training {
+  height: 600px;
+  background: #ddd;
+  color: #111;
+  font-family: 'Source Sans Pro', sans-serif; 
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Bio p {
+  font-size: 20px;
+}
+
+.Bio li {
+ font-size: 16px;
+ list-style: square;
+ margin-top: 5px;
+}
+
+h1 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 17px;
+}
+
+li {
+ font-size: 15px;
+ list-style: square;
+ margin-top: 5px;
+}
